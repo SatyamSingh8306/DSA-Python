@@ -13,7 +13,8 @@ class Node:
         Parameters:
             data (int): The value to be stored in the node.
         """
-        pass
+        self.data = data
+        self.next = None
 
 
 class SinglyLinkedList:
